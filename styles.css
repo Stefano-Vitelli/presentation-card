@@ -20,6 +20,7 @@ body {
   height: 350px;
   border-radius: 10px;
   box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.377);
+
 }
 
 .card .content {
@@ -34,6 +35,8 @@ body {
   background-color: #fff;
   text-align: center;
   padding: 10px;
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
 
 .card .content .img {
@@ -71,8 +74,9 @@ body {
 }
 
 .card .content p {
-  font-size: 13px;
-  color: #1a161f;
+  font-size: 10.5px;
+  color: grey;
+  
 }
 
 .card .links {
@@ -101,6 +105,14 @@ body {
   color: #646069;
 }
 
-.card links a:nth-child(2):hover {
+.card .links a:nth-child(1):hover {
+  color: #0158ca;
+}
+
+.card .links a:nth-child(2):hover {
+  color: black;
+}
+
+.card .links a:nth-child(3):hover {
   color: #1c93e4;
 }
